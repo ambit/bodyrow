@@ -25,10 +25,12 @@ html, body {
   width: 40%;
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: .2rem;
+  letter-spacing: 0.1rem;
+  text-align: left;
   text-decoration: none;
-  line-height: 6.5rem;
+  line-height: 60px;
   color: #bbbbbb;
+  padding-left: 20px;
   float: left;
   display: inline-block; }
 .home .header .content {
