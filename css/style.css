@@ -176,9 +176,9 @@ html, body {
     letter-spacing: .2rem;
     text-decoration: none;
     line-height: 6.5rem;
-    color: #000; }
+    color: #bbbbbb; }
   .navbar-link.active {
-    color: #33C3F0; }
+    color: #ffffff; }
   .has-docked-nav .navbar {
     position: fixed;
     top: 0;
