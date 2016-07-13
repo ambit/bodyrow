@@ -18,9 +18,10 @@ html, body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
-  margin: 40% auto 0 auto;
+  margin: 0 auto 0 auto;
+  padding-top: 180px;
   width: 100%;
-  max-width: 960px; }
+  max-width: 800px; }
 
 .docs-header {
   text-transform: uppercase;
