@@ -27,7 +27,7 @@
 				$(this).serialize(),
 				function (data) {
 					$('button').stop().fadeTo(200,1);
-					if (data.Status === 400) { $('#email').addClass('error'); } else { $('#response').show(); }
+					if (data.Status === 400) { $('#email').addClass('error'); } else { $('modalForm').hide; $('#response').show(); }
 				});
 			});
 		});
