@@ -28,6 +28,7 @@ a#button {
   font-size: 17px;
   padding: 15px 20px 13px;
   cursor: pointer;
+  height: 66px;
   margin-top: 10px;
   text-decoration: none;
   -khtml-border-radius: 3px;
@@ -172,6 +173,7 @@ a#button:focus {
   padding: 13px 30px;
   cursor: pointer;
   margin-top: 10px;
+  height: 66px;
 }
 .modal form#subForm button:hover {
   background: #e74d34;
