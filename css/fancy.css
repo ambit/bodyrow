@@ -114,7 +114,7 @@ a#button:focus {
   font-size: 17px;
   width: 375px;
   height: 200px;
-  line-height: 250px;
+  line-height: 200px;
   padding-left: 25px;
   color: #9099A3;
   background: url('../img/tick.png') left center no-repeat;
