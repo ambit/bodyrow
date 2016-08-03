@@ -15,7 +15,6 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/site.js"></script>
   <script type="text/javascript" src="js/modal.js"></script>
-  <!-- Campaign Monitor AJAX Subscribe: https://gist.github.com/jdennes/1155479 -->
 	<script type="text/javascript">
 		$(function () {
 			$('#subForm').submit(function (e) {
@@ -27,7 +26,7 @@
 				$(this).serialize(),
 				function (data) {
 					$('button').stop().fadeTo(200,1);
-					if (data.Status === 400) { $('#email').addClass('error'); } else { $('modalForm').hide; $('#response').show(); }
+					if (data.Status === 400) { $('#email').addClass('error'); } else { $('#modalForm').hide(); $('#response').show(); }
 				});
 			});
 		});
