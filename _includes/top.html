@@ -7,11 +7,30 @@
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="js/site.js"></script>
-  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="css/fancy.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/site.js"></script>
+  <script type="text/javascript" src="js/modal.js"></script>
+  <!-- Campaign Monitor AJAX Subscribe: https://gist.github.com/jdennes/1155479 -->
+	<script type="text/javascript">
+		$(function () {
+			$('#subForm').submit(function (e) {
+				e.preventDefault();
+				$('#email').removeClass();
+				$('button').fadeTo(200,0.5);
+				$.getJSON(
+				this.action + "?callback=?",
+				$(this).serialize(),
+				function (data) {
+					$('button').stop().fadeTo(200,1);
+					if (data.Status === 400) { $('#email').addClass('error'); } else { $('#response').show(); }
+				});
+			});
+		});
+	</script>
+  <link rel="icon" type="image/png" href="img/favicon.png" />
 </head>
