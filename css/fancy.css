@@ -1,6 +1,6 @@
 #modalForm {
-  width: 500px;
-  height: 350px;
+  width: 400px;
+  height: 250px;
 }
 
 .modal.hide {
@@ -109,8 +109,10 @@ a#button:focus {
   float: left;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
-  width: 500px;
-  height: 350px;
+  width: 375px;
+  height: 250px;
+  line-height: 250px;
+  padding-left: 25px;
   color: #9099A3;
   background: url('../img/tick.png') left center no-repeat;
   display: none;
