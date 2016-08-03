@@ -1,6 +1,9 @@
+#subForm {
+  margin-bottom: 0;
+}
 #modalForm {
   width: 400px;
-  height: 250px;
+  height: 200px;
 }
 
 .modal.hide {
@@ -108,9 +111,9 @@ a#button:focus {
 .modal #response {
   float: left;
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   width: 375px;
-  height: 250px;
+  height: 200px;
   line-height: 250px;
   padding-left: 25px;
   color: #9099A3;
