@@ -101,9 +101,6 @@ html, body {
   color: #002244;
 }
 
-.value-props {
-  margin-top: 0;
-}
 .value-img {
   display: block;
   text-align: center;
@@ -179,10 +176,10 @@ html, body {
   .header {
  }
   .value-props {
-    margin-top: 9rem;
-    margin-bottom: 7rem; }
+    margin-top: 0;
+    margin-bottom: 8rem; }
   .value-img {
-    margin-bottom: 1rem; }
+    margin-bottom: 1.5rem; }
   .example-grid .column,
   .example-grid .columns {
     margin-bottom: 1.5rem; }
