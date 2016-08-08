@@ -66,20 +66,27 @@ html, body {
   margin-bottom: 0;
 }
 .docs-header {
+  margin-bottom: 1.5rem;
   text-align: center;
   font-size: 32px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  color: #002244;
 }
 .docs-subheader {
+  margin-bottom: 1.5rem;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 18px;
   letter-spacing: .2rem;
   text-transform: uppercase;
+  color: #696c6f;
 }
 .docs-section p {
+  margin-bottom: 1.5rem;
   text-align: center;
+  letter-spacing: .2rem;
+  color: #696c6f;
 }
 
 .value-img {
