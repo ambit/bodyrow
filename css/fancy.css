@@ -169,7 +169,7 @@ a#button:focus {
 }
 .modal form#subForm input.error {
   background: url('../img/cross.png') right center no-repeat;
-  background-position: 372px center;
+  background-position: 356px center;
   color: #df452c;
 }
 .modal form#subForm button {
