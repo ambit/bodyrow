@@ -52,17 +52,12 @@ a#button {
   position: relative;
 }
 a#button:hover {
-  background: #0cc29f;
+  background: #00497c;
 }
 a#button:active,
 a#button:focus {
-  background: #0fa688;
-  border-bottom: 0;
-  border-top: 2px solid #0c806a;
-  outline: none;
-  box-shadow: 0 2px 1px #fff;
-  -moz-box-shadow: 0 2px 1px #fff;
-  -webkit-box-shadow: 0 2px 1px #fff;
+  background: #002549;
+  border: 1px solid #00497c;
 }
 .modal {
   text-align: left;
