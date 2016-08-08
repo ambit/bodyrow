@@ -111,6 +111,16 @@ html, body {
 #join {
   background: #b5b7b9;
 }
+#join .docs-subheader {
+  color: #002244;
+}
+#join #joinForm {
+  margin-top: 1rem;
+}
+#join #joinResponse {
+  margin-top: 1rem;
+  display: none;
+}
 
 .example-grid .column,
 .example-grid .columns {
