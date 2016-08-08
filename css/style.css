@@ -59,15 +59,28 @@ html, body {
   padding: 0 10px 0 10px;
 }
 
-.docs-header {
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  letter-spacing: .2rem;
-  font-weight: 600; }
+
 .docs-section {
   border-top: 1px solid #eee;
   padding: 4rem 0;
-  margin-bottom: 0;}
+  margin-bottom: 0;
+}
+.docs-header {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.docs-subheader {
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+.docs-section p {
+  text-align: center;
+}
 
 .value-img {
   display: block;
