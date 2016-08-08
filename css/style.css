@@ -107,6 +107,11 @@ html, body {
   margin: 2.5rem auto 0;
 }
 
+
+#join {
+  background: #b5b7b9;
+}
+
 .example-grid .column,
 .example-grid .columns {
   background: #EEE;
