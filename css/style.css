@@ -116,8 +116,8 @@ form .formRow {
 }
 form button,
 form input {
-  height: 40px;
-  margin: 0 0 5px 0;
+  height: 50px !important;
+  line-height: 26px !important;
   font-family: 'Open Sans', sans-serif;
   -khtml-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -129,15 +129,14 @@ form input {
 }
 form input {
   width: 378px;
-  padding: 12px 10px;
-  line-height: 16px;
+  padding: 12px 10px !important;
   font-size: 15px;
   color: #373c44;
-  border: 1px solid #cfd4db;
+  border: 1px solid #cfd4db !important;
 }
 form input#postcode {
-  width: 200px;
-  margin-right: 20px;
+  width: 195px;
+  margin-right: 10px;
 }
 form input::-webkit-input-placeholder {
   color: #c8ccd1;
@@ -173,8 +172,8 @@ form input.error {
   color: #df452c;
 }
 form button {
-  padding: 12px 10px;
-  line-height: 16px;
+  width: 174px;
+  padding: 12px 15px;
   font-size: 15px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
@@ -191,7 +190,6 @@ form button {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-  cursor: pointer;
   cursor: pointer;
 }
 form button:hover {
@@ -216,7 +214,10 @@ form button:focus {
   color: #002244;
 }
 #join #joinForm {
-
+  width: 380px;
+  height: 220px;
+  margin: 0 auto;
+  clear: both;
 }
 #join #joinResponse {
   float: left;
@@ -342,8 +343,8 @@ a#button:focus {
   margin-bottom: 0;
 }
 .modal #subForm #modalForm {
-  width: 400px;
-  height: 200px;
+  width: 380px;
+  height: 220px;
 }
 .modal #subForm #modalResponse {
   float: left;
