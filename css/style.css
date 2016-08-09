@@ -193,14 +193,12 @@ form button {
   cursor: pointer;
 }
 form button:hover {
-  background: #e74d34;
+  background: #00497c;
 }
 form button:active,
 form button:focus {
-  background: #d23920;
-  border-bottom: 0;
-  border-top: 2px solid #922c19;
-  outline: none;
+  background: #002549;
+  border: 1px solid #00497c;
 }
 
 
@@ -215,7 +213,7 @@ form button:focus {
 }
 #join #joinForm {
   width: 380px;
-  height: 220px;
+  height: 180px;
   margin: 0 auto;
   clear: both;
 }
@@ -223,9 +221,9 @@ form button:focus {
   float: left;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
-  width: 375px;
-  height: 200px;
-  line-height: 200px;
+  width: 355px;
+  height: 180px;
+  line-height: 180px;
   padding-left: 25px;
   color: #9099A3;
   background: url('../img/tick.png') left center no-repeat;
@@ -326,7 +324,7 @@ a#button:focus {
 .modal h1 {
   font-size: 2.2rem;
   color: #373c44;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .modal h2 {
   font-size: 14px;
@@ -344,15 +342,15 @@ a#button:focus {
 }
 .modal #subForm #modalForm {
   width: 380px;
-  height: 220px;
+  height: 230px;
 }
 .modal #subForm #modalResponse {
   float: left;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
-  width: 375px;
-  height: 200px;
-  line-height: 200px;
+  width: 355px;
+  height: 230px;
+  line-height: 230px;
   padding-left: 25px;
   color: #9099A3;
   background: url('../img/tick.png') left center no-repeat;
