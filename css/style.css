@@ -221,15 +221,13 @@ form button:focus {
   clear: both;
 }
 #join #joinResponse {
-  float: left;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
   width: 355px;
   height: 180px;
+  margin: 0 auto;
   line-height: 180px;
-  padding-left: 25px;
-  color: #9099A3;
-  background: url('../img/tick.png') left center no-repeat;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  color: #002244;
   display: none;
 }
 
