@@ -110,9 +110,9 @@ html, body {
 
 /* ----------  Signup Form Template  ---------- */
 
-
 form .formRow {
-  position: relative;
+  margin-bottom: 10px;
+  float: left;
 }
 form button,
 form input {
