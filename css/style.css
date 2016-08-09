@@ -193,10 +193,13 @@ form button {
   cursor: pointer;
 }
 form button:hover {
+  color: #ffffff;
   background: #00497c;
+  border: 1px solid #005e97;
 }
 form button:active,
 form button:focus {
+  color: #ffffff;
   background: #002549;
   border: 1px solid #00497c;
 }
