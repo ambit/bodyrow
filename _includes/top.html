@@ -11,7 +11,6 @@
   <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="css/fancy.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/site.js"></script>
@@ -27,7 +26,19 @@
 				$(this).serialize(),
 				function (data) {
 					$('button').stop().fadeTo(200,1);
-					if (data.Status === 400) { $('#email').addClass('error'); } else { $('#modalForm').hide(); $('#response').show(); }
+					if (data.Status === 400) { $('#subForm #email').addClass('error'); } else { $('#modalForm').hide(); $('#modalResponse').show(); }
+				});
+			});
+      $('#mainForm').submit(function (e) {
+				e.preventDefault();
+				$('#email').removeClass();
+				$('button').fadeTo(200,0.5);
+				$.getJSON(
+				this.action + "?callback=?",
+				$(this).serialize(),
+				function (data) {
+					$('button').stop().fadeTo(200,1);
+					if (data.Status === 400) { $('#mainForm #email').addClass('error'); } else { $('#joinForm').hide(); $('#joinResponse').show(); }
 				});
 			});
 		});

@@ -107,6 +107,302 @@ html, body {
   margin: 2.5rem auto 0;
 }
 
+
+/* ----------  Signup Form Template  ---------- */
+
+form .formRow {
+  margin-bottom: 10px;
+  float: left;
+}
+form button,
+form input {
+  height: 50px !important;
+  line-height: 26px !important;
+  font-family: 'Open Sans', sans-serif;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin: 0;
+  float: left;
+  display: inline-block;
+}
+form input {
+  width: 378px;
+  padding: 12px 10px !important;
+  font-size: 15px;
+  color: #373c44;
+  border: 1px solid #cfd4db !important;
+}
+form input#postcode {
+  width: 195px;
+  margin-right: 10px;
+}
+form input::-webkit-input-placeholder {
+  color: #c8ccd1;
+}
+form input:-moz-placeholder {
+  color: #c8ccd1;
+}
+form input::-moz-placeholder {
+  color: #c8ccd1;
+}
+form input:-ms-input-placeholder {
+  color: #c8ccd1;
+}
+form input:focus {
+  border-color: #b1b9c6;
+  outline: none;
+}
+form input:focus::-webkit-input-placeholder {
+  color: #acb3ba;
+}
+form input:focus:-moz-placeholder {
+  color: #acb3ba;
+}
+form input:focus::-moz-placeholder {
+  color: #acb3ba;
+}
+form input:focus:-ms-input-placeholder {
+  color: #acb3ba;
+}
+form input.error {
+  background: url('../img/cross.png') right center no-repeat;
+  background-position: 356px center;
+  color: #df452c;
+}
+form button {
+  width: 174px;
+  padding: 12px 15px;
+  font-size: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #002549, 1px -1px 0 #002549, -1px 1px 0 #002549, 1px 1px 0 #002549;
+  color: #ffffff;
+  background: #00497c; /* Old browsers */
+  background: -moz-linear-gradient(top, #00497c 0%, #002549 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #00497c 0%,#002549 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #00497c 0%,#002549 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00497c', endColorstr='#002549',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #005e97;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+form button:hover {
+  color: #ffffff;
+  background: #00497c;
+  border: 1px solid #005e97;
+}
+form button:active,
+form button:focus {
+  color: #ffffff;
+  background: #002549;
+  border: 1px solid #00497c;
+}
+
+
+/* ----------  Join The Crew Form  ---------- */
+
+#join {
+  background: #b5b7b9;
+}
+#join .docs-subheader {
+  margin-bottom: 3.5rem;
+  color: #002244;
+}
+#join #joinForm {
+  width: 380px;
+  height: 180px;
+  margin: 0 auto;
+  clear: both;
+}
+#join #joinResponse {
+  width: 355px;
+  height: 180px;
+  margin: 0 auto;
+  line-height: 180px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  color: #002244;
+  display: none;
+}
+
+
+/* ----------  Keep Me Posted Modal Form  ---------- */
+
+a#button {
+  height: 66px;
+  margin-top: 10px;
+  padding: 11px 25px 0 25px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #002549, 1px -1px 0 #002549, -1px 1px 0 #002549, 1px 1px 0 #002549;
+  color: #fff;
+  background: #00497c; /* Old browsers */
+  background: -moz-linear-gradient(top, #00497c 0%, #002549 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #00497c 0%,#002549 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #00497c 0%,#002549 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00497c', endColorstr='#002549',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #005e97;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+a#button:hover {
+  background: #00497c;
+}
+a#button:active,
+a#button:focus {
+  background: #002549;
+  border: 1px solid #00497c;
+}
+
+.modal.hide {
+  display: none;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #373c44;
+}
+.modal-backdrop.fade {
+  opacity: 0;
+}
+.modal-backdrop, .modal-backdrop.fade.in {
+  opacity: 0.3;
+  filter: alpha(opacity=40);
+}
+.modal {
+  text-align: left;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 200;
+  width: 398px;
+  margin: -17% 0 0 -250px;
+  background-color: #FFF;
+  z-index: 1000;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: 0 0 0 4px rgba(55, 60, 65, 0.1);
+  -moz-box-shadow: 0 0 0 4px rgba(55, 60, 65, 0.1);
+  -webkit-box-shadow: 0 0 0 4px rgba(55, 60, 65, 0.1);
+  padding: 50px 50px 55px;
+}
+.modal a.close {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  padding: 5px 10px;
+  color: #9099A3;
+  text-decoration: none;
+}
+.modal a.close:hover {
+  color: #5d6670;
+}
+.modal h1,
+.modal h2 {
+  margin: 0;
+  padding: 0;
+}
+.modal h1 {
+  font-size: 2.2rem;
+  color: #373c44;
+  margin-bottom: 20px;
+}
+.modal h2 {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #9099A3;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  width: 100%;
+  border-bottom: 1px solid #ECEEF1;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.modal #subForm {
+  margin-bottom: 0;
+}
+.modal #subForm #modalForm {
+  width: 380px;
+  height: 230px;
+}
+.modal #subForm #modalResponse {
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  width: 355px;
+  height: 230px;
+  line-height: 230px;
+  padding-left: 25px;
+  color: #9099A3;
+  background: url('../img/tick.png') left center no-repeat;
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    padding-top: 100px;
+  }
+  .modal {
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 8%;
+  }
+  .modal form#subForm a.close {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .modal form#subForm h1 {
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+  .modal form#subForm input {
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .modal form#subForm input.error {
+    background-position: 95% center;
+  }
+  .modal form#subForm button {
+    float: left;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .modal form#subForm #response {
+    font-size: 2.2rem;
+    width: 100%;
+    text-align: center;
+    background-position: bottom center;
+  }
+}
+
+
 .example-grid .column,
 .example-grid .columns {
   background: #EEE;
