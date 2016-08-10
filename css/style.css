@@ -331,16 +331,20 @@ a#button:focus {
   -o-background-size: cover;
   background-size: cover; }
 #bodyrow-quote h4 {
-  line-height: 36px;
+  padding-top: 30px;
+  line-height: 38px;
   text-align: left;
   font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  font-style: italic;
   color: #ffffff;
 }
 #bodyrow-quote h5 {
   line-height: 18px;
   text-align: left;
   font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #b5b7b9;
 }
